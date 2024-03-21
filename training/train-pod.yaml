@@ -1,15 +1,15 @@
 apiVersion: v1
-kind: Pod
+kind: <todo>
 metadata:
-  name: mnist-train
+  name: <todo>
 spec:
   restartPolicy: Never
   containers:
-  - name: mnist-train
-    image: irenetht/mnist:train # mnist:train
-    command: ['sh', '-c', 'python3 main.py --epoch 1']
+  - name: <todo>
+    image: <todo>
+    command: <todo>
     resources:
       requests:
         memory: "1000Mi"
       limits:
-        memory: "1000Mi"
+        memory: <todo>
